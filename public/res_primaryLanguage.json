@@ -1,118 +1,130 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "biancacjoseph@gmail.com | 469-468-6716",
+    "description": "👋 Hello! I'm Bianca Joseph, an adaptable software engineer with a growth mindset, passionate about creative challenges and utilizing pioneering technology. I feel most aligned when working in a challenging, innovative environment and collaborating with open minded, forward thinking individuals. Constantly creating and learning new things is what energizes me and inspires me. Please feel free to reach out if you have any questions!",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "NeuroNerd",
+      "startDate": "2022",
+      "description": "Created by using Django, Python3, Postgresql and Vue, NeuroNerd is an application for people who are interested in neuroscience. It was fun combining two of my biggest interests: neuroscience and computer science!",
+      "images": [
+        "https://i.imgur.com/qgMLwos.png",
+        "https://i.imgur.com/UzUaet7.png"
+      ],
+      "url": "https://github.com/neuronerd",
+      "technologies": [
+        {
+          "class": "devicon-django-plain",
+          "name": "Django"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python3"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "Postgresql"
+        },
+        {
+          "class": "devicon-vuejs-plain",
+          "name": "Vue.js"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "On My Block",
+      "startDate": "2022",
+      "description": "Inspired to keep neighborhoods and residents safe, On My Block is an app for locals to see and post crimes and recommendations as well as 'like' recommendations in their neighborhood. Featuring User Authentication, this app was created with MongoDB, Postgresql, React Router, Express and Node.js.",
+      "images": [
+        "https://imgur.com/YGsvbmq.png",
+        "https://imgur.com/a/gh79lbX.png"
+      ],
+      "url": "https://github.com/on_my_block",
+      "technologies": [
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "Postgresql"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        }
+      ]
+    },
+    {
+      "title": "Travel Bucket List",
+      "startDate": "2021",
+      "description": "A full stack MERN travel app for people interested in traveling to Australia. With full CRUD, people can add, delete and update experiences they want to have as well as travel tips.",
+      "images": [
+        "https://i.imgur.com/RQvX9y9.png",
+        "https://i.imgur.com/m9pmTAH.png"
+      ],
+      "url": "https://github.com/travel_bucket_list",
+      "technologies": [
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "Mongoose"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "General Assembly",
+      "title": "Software Engineer Immersive",
+      "years": "10.2021 - 02/2022",
+      "mainTech": ["JavaScript"],
+      "technologies": [
+        "REST API",
+        "HTML5",
+        "JavaScript",
+        "CSS3",
+        "React",
+        "Redux",
+        "MongoDB",
+        "Mongoose",
+        "Express.js",
+        "PostgreSQL",
+        "Sequelize",
+        "Vue.js",
+        "Python3",
+        "Django",
+        "Heroku"
+      ]
+    },
+    {
+      "company": "Sabre Corporation",
+      "title": "Business Analysist Intern",
+      "years": "05.2016 - 08.2016",
+      "mainTech": ["Python"],
+      "technologies": ["Python", "XML", "SQL"]
+    }
+  ]
+}

@@ -1,21 +1,20 @@
-import React, { Component } from "react";
-import $ from "jquery";
-import "./App.scss";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import React, { Component } from 'react';
+import $ from 'jquery';
+import './App.scss';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import About from './components/About';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
-      foo: "bar",
+      foo: 'bar',
       resumeData: {},
-      sharedData: {},
+      sharedData: {}
     };
   }
 
@@ -34,12 +33,10 @@ class App extends Component {
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+    document.getElementById(oppositeLangIconId);
+    // .removeAttribute('filter', 'brightness(40%)');
+    document.getElementById(pickedLangIconId);
+    // .setAttribute('filter', 'brightness(40%)');
   }
 
   componentDidMount() {
@@ -53,21 +50,21 @@ class App extends Component {
   loadResumeFromPath(path) {
     $.ajax({
       url: path,
-      dataType: "json",
+      dataType: 'json',
       cache: false,
       success: function (data) {
         this.setState({ resumeData: data });
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
-      },
+      }
     });
   }
 
   loadSharedData() {
     $.ajax({
       url: `portfolio_shared_data.json`,
-      dataType: "json",
+      dataType: 'json',
       cache: false,
       success: function (data) {
         this.setState({ sharedData: data });
@@ -75,7 +72,7 @@ class App extends Component {
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
-      },
+      }
     });
   }
 
@@ -91,11 +88,11 @@ class App extends Component {
                 window.$secondaryLanguageIconId
               )
             }
-            style={{ display: "inline" }}
+            style={{ display: 'inline' }}
           >
             <span
               className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              // data-icon="twemoji-flag-for-flag-united-states"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
@@ -107,13 +104,13 @@ class App extends Component {
                 window.$primaryLanguageIconId
               )
             }
-            style={{ display: "inline" }}
+            style={{ display: 'inline' }}
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              // data-icon="twemoji-flag-for-flag-poland"
               data-inline="false"
-              id={window.$secondaryLanguageIconId}
+              // id={window.$secondaryLanguageIconId}
             ></span>
           </div>
         </div>
